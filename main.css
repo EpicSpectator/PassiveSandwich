@@ -1,0 +1,35 @@
+#icon{
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	outline: #664331 solid thin;
+}
+
+#p_icon{
+	float: right;
+	width: 64px;
+	outline: #664331 solid thin;
+}
+
+#title{
+	font-size: 12pt;
+	display: inline;
+}
+
+#header{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	background-color: #7F543D;
+	background-image: url("FloorBoard.png");
+	outline: #664331 solid thin;
+}
+
+img{
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
+}
